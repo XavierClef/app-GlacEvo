@@ -1,0 +1,20 @@
+---
+title: "pres_app"
+output:
+  html_document:
+    css: "style.css"
+---
+
+<style>
+  body {
+    text-align: justify;
+  }
+</style>
+
+# Glacier Evolution
+
+Cette application web "Glacier Evolution" offre une visualisation interactive de l'évolution des glaciers de l'arc alpin entre 2000 et 2050, selon trois scénarios climatiques distincts. À travers cette plateforme, nous proposons d'explorer les conséquences potentielles du changement climatique sur ces réservoirs d'eau douce essentiels à l'équilibre de notre planète. Les glaciers sont les témoins silencieux mais éloquents du réchauffement global. Formés au fil des siècles par l'accumulation et la compression de neige, ils constituent des archives climatiques irremplaçables et des réservoirs d'eau douce irremplaçables. Leur fonte accélérée depuis le début du XXIe siècle représente l'un des signaux les plus alarmants du réchauffement climatique en cours.
+
+L'importance des glaciers dépasse largement leur caractère auguste. Ils régulent les débits des cours d'eau lors de la saison estivale et approvisionnent en eau potable la flore, la faune et les hommes des vallées. Ils contribuent à la stabilité des écosystèmes montagnards et vont jusqu'à influencer les courants océaniques et les régimes de précipitations régionaux. Notre application permet d'observer l'évolution passée des glaciers depuis 2000, documentée par des observations satellitaires, puis de projeter leur avenir jusqu'en 2050 selon différentes trajectoire d'évolution de la fonte. En visualisant ces données complexes de manière intuitive et accessible, nous espérons contribuer à une meilleure communication des enjeux liés à la cryosphère.
+
+Cette plateforme s'adresse aussi bien aux chercheurs et décideurs qu'aux citoyens soucieux de comprendre les transformations qui affectent notre environnement. En rendant visible l'invisible, en visualisant des phénomènes qui se déroulent au fond des vallées alpines, nous souhaitons sensibiliser à l'urgence climatique pour préserver ces masses de glace et limiter leur ultime recul.

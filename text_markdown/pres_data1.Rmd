@@ -1,0 +1,13 @@
+---
+title: "pres_data"
+output: html_document
+---
+
+### Observation de l'épaisseur des glaciers
+
+Pour la période 2000-2020, notre application s'appuie sur les données issues des travaux de Hugonnet et al. (2021) qui ont réalisé une cartographie exhaustive des changements d'altitiude de la surface des glaciers à l'échelle mondiale. Cette étude de référence repose sur l'analyse d'images stéréoscopiques acquises par le satellite ASTER (Advanced Spaceborne Thermal Emission and Reflection Radiometer) entre 2000 et 2020. Pour plus de détails, voir l'article ([lien](https://www.nature.com/articles/s41586-021-03436-z)).
+
+La méthodologie développée par Hugonnet et ses collaborateurs permet de quantifier avec précision les variations d'altitude de la surface des glaciers par photogrammétrie satellitaire. Pour l'arc alpin, ces données offrent une résolution spatiale de 100 mètres et une couverture temporelle de 20 ans, permettant ainsi de suivre l'évolution récente des glaciers sur la pluspart des glaciers du monde.
+
+Ces observations montrent une accélération significative de la perte de masse glaciaire dans les Alpes au cours des deux dernières décennies, avec des taux de fonte particulièrement élevés depuis 2010. En combinant ces données d'observation (2000-2020) avec les projections modélisées (2020-2050) décrites ci-dessous, notre application offre une perspective complète de l'évolution des glaciers alpins sur une période de 50 ans.
+

@@ -1,0 +1,155 @@
+/* Style de base pour les inputs de type number */
+input[type="number"] {
+  max-width: 80%;
+  border-radius: 4px;
+  border: 1px solid #BDC3C7;
+  padding: 8px;
+}
+
+/* Conteneur principal fixe */
+div.outer {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+/* Personnalisation des polices */
+body, label, input, button, select {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* Style pour la section des contrôles */
+#controls {
+  background-color: white; /* Fond clair */
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Position et style de la citation */
+#cite {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #2C3E50; /* Couleur de texte sombre */
+  font-size: 0.9em;
+}
+
+/* Personnalisation de la scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: white; 
+}
+::-webkit-scrollbar-thumb {
+  background: #2f69b5; 
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2b428a; 
+}
+
+.leaflet-container {
+  background-color: #F8F9FA !important; 
+}
+
+.bslib-page-navbar > .navbar,
+.bslib-page-dashboard > .navbar {
+  --bslib-navbar-default-bg: #2f69b5; 
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-default {
+  background-color: var(--bslib-navbar-default-bg); 
+  border-bottom: 3px solid #2b428a; 
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: #F8F9FA; 
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: #2b428a; 
+  color: white;
+}
+
+.navbar-nav > li > a {
+  padding: 12px 20px;
+}
+
+.navbar-nav > li > a:hover {
+  background-color: #2b428a; 
+  transition: background-color 0.3s ease-in-out;
+}
+
+h2 {
+  color: #2C3E50; 
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Style de base pour les boutons primaires */
+.btn-primary {
+    color: #ffffff; /* Texte blanc */
+    background-color: #2f69b5; /* Bleu vif */
+    border-color: #2f69b5; /* Bleu clair pour la bordure */
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+/* Style au survol */
+.btn-primary:hover {
+    background-color: #2f69b5; /* Bleu légèrement plus foncé */
+    border-color: #2b428a; /* Bordure légèrement plus foncée */
+}
+
+/* Style au clic ou lorsqu'il est actif */
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    color: #ffffff; /* Texte blanc */
+    background-color: #2b428a; /* Bleu encore plus foncé */
+    border-color: #2b428a; /* Bordure plus foncée */
+}
+
+/* Style lorsqu'il est désactivé */
+.btn-primary:disabled,
+.btn-primary.disabled {
+    background-color: #2b428a; /* Bleu très clair */
+    border-color: #2f69b5; /* Bordure très claire */
+    color: #ffffff; /* Texte blanc */
+    opacity: 0.7; /* Réduire l'opacité pour indiquer l'état désactivé */
+}
+
+/* Style lorsqu'il est en focus (tabulation ou clic) */
+.btn-primary:focus {
+    background-color: #2b428a; /* Revenir au bleu vif */
+    border-color: #2b428a; /* Bordure bleu clair */
+    box-shadow: 0 0 0 0.2rem rgba(0, 121, 255, 0.5); /* Ombre bleue pour le focus */
+}
+
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+    color: #ffffff; /* Texte blanc */
+    background-color: #2b428a; /* Bleu plus foncé pour l'interaction */
+    border-color: #003366; /* Bordure bleue très foncée */
+}
