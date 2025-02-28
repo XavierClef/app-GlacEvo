@@ -1,5 +1,7 @@
 # Set-up ====
-#Chargement des packages manquants
+
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+
 packages <- c("shiny", "shinythemes", "bslib", "DT", "shinyglide", "scales",
               "leaflet", "tidyverse", "sf", "terra", "leaflet.extras",
               "shinyWidgets", "plotly", "cowplot", "grid", "shinydashboard",
